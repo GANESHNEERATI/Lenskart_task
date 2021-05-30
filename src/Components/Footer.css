@@ -1,0 +1,8 @@
+.footer{
+    background-repeat: no-repeat,no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.7) 100%), url("../Assets/footer.jpg");
+    width:100vw;
+    height: 60vh;
+    z-index: 1;
+    
+}

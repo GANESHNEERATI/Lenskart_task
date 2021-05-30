@@ -1,0 +1,110 @@
+.banner{
+ z-index: 1;
+    height: 60vh;
+    background-repeat: no-repeat,no-repeat;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.7) 100%), url("../Assets/mirzapur2.jpg");
+  
+  position: relative;
+  
+    width:100vw;
+}
+.bannerInfo1{
+    position: absolute;
+    z-index: 2;
+    top:50px;
+    left:50px;
+    display: flex;
+    
+}
+.bannerInfo__left__container{
+    color: white;
+    position: relative;
+    
+}
+.bannerInfo__left__container > img{
+    
+  margin-bottom: -100px;
+  margin-top: -50px;
+    
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+
+}
+.bannerInfo__left__container_bottom{
+    display: flex;
+    align-items: center;
+    bottom :150px;
+    
+
+}
+
+.bannerInfo__left__container_bottom > img
+{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bannerInfo__left__container_bottom >p {
+    margin-right: 10px;
+}
+
+.bannerInfo__left__container_bottom__line{
+    height: 50px;
+    width: 3px;
+    background-color: white;
+}
+.now_span{
+    font-weight: bold;
+}
+
+.bannerInfo1__middle{
+    height: 150px;
+    width: 3px;
+    background-color: white;
+    margin-left: 5px;
+}
+.bannerInfor__right{
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+    
+}
+
+.bannerInfor__right >img{
+    height: 150px;
+    width: 200px;
+}
+
+.bannerInfo2
+{
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.bannerInfo2 > p{
+    font-weight: bolder;
+   font-size: large;
+}
+
+.bannerInfo2 > button{
+    margin-top: 20px;
+    margin-left: 160px;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        outline-width: 0;
+        background-color: #FF3500;
+        color: white;
+        font-size: medium;
+        font-weight: 500;
+        cursor: pointer;
+
+}

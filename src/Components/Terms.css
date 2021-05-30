@@ -1,0 +1,36 @@
+.terms{
+    
+    color: white;
+    background-color: #4B4B4B;
+    margin: 50px;
+    line-height: 40px;
+    height: 500px;
+}
+
+.terms_info{
+    margin:100px;
+}
+
+.terms_info > p ,h2{
+    text-align: left;
+   
+}
+.line{
+    height: 2px;
+    width:100px;
+    
+    background-color: white;
+    margin-top: 25px;
+    
+}
+
+    a{
+     
+        color: cyan;
+      }
+      
+
+a:hover {
+    color: hotpin;
+  }
+

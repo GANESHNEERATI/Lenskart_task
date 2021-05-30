@@ -1,0 +1,54 @@
+.help{
+    color: white;
+    margin: 50px;
+
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.help_line{
+    height: 2px;
+    width:100px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.help_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email , .phone{
+
+    height: 80px;
+    width:300px;
+    border: 2px solid gray;
+    margin: 10px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bottom_right{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+
+}
+.bottom_left > p{
+   text-align: left;
+}
+
+.email,.phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email_right > p , .phone_right >p{
+    text-align: left;
+}

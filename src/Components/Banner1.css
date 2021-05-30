@@ -1,0 +1,42 @@
+.banner1{
+    z-index: 1;
+       height: 60vh;
+       background-repeat: no-repeat,no-repeat;
+       background-image:  url("../Assets/mirzapur2.jpg");
+     
+     position: relative;
+   margin: 50px;
+      }
+
+      .banner1_info
+      {
+          z-index: 2;
+          color: white;
+          position: absolute;
+          left:40px;
+          top:150px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .banner1_info > p{
+          font-size: 20px;
+          font-weight: 800;
+      }
+      .banner1_info >button{
+        margin-top: 20px;
+        
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            outline-width: 0;
+          
+
+            font-size: medium;
+            font-weight: 500;
+            cursor: pointer;
+    
+      }
+
+    

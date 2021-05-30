@@ -1,0 +1,76 @@
+.cardIntro
+{  
+    color: white;
+    margin: 50px;
+    background-color: #191919;
+ 
+  
+   
+}
+
+.cardIntro_header{
+
+      margin-top: 50px;
+    
+    }
+.cardIntro_header > p {
+text-align: center;
+}
+.cardIntro_header > h2{
+    text-align: center;
+
+}
+
+.card__container
+{
+    margin: 50px;
+
+    height: 600px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.img__wrapper > img:nth-child(1){
+  height: 200px;
+
+    object-fit: contain;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+p{
+    text-align: center;
+    font-size:medium;
+    font-weight: 500;
+
+}
+.actor_name{
+    color: #FF3500;
+    font-weight:500;
+}
+.glaseepic{
+    height: 200px;
+  
+      object-fit: contain;
+    
+  }
+
+  .card__container > button{
+      width: 120px;
+      height: 40px;
+      border-radius: 10px;
+      outline-width:0;
+      cursor: pointer;
+      margin-top: 10px;
+      
+  }
+
+  .Cards__section{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  
